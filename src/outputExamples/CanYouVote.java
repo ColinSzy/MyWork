@@ -1,6 +1,6 @@
 package outputExamples;
 import java.util.Scanner;
-public class AgeMath {
+public class CanYouVote {
 	
 	public static void main(String [] args)
 	{
@@ -8,8 +8,9 @@ public class AgeMath {
 		Scanner input = new Scanner(System.in);
 		System.out.println("What is your age?");
 		age = input.nextInt();
-		age = age + 7;
-		System.out.println("In seven years you will be " + age + " years old.");
+		if(age > 17) System.out.println("You can vote!"); 
+		else  System.out.println("You can vote in " + (age = 18-age) + " years");
+		
 		
 		
 		
