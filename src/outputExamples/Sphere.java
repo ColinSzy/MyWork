@@ -6,7 +6,7 @@ public class Sphere {
 	{
 		double radius = -999;
 		double area = -999;
-		double pi = 3.14;
+		double pi = 3.1415;
 		Scanner input = new Scanner(System.in);
 		System.out.println("What is the radius of the Sphere?");
 		radius = input.nextDouble();
