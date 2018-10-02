@@ -19,14 +19,14 @@ public class Coins {
 		quarter = (amount%100)/25;
 		dime = ((amount%100)%25)/10;
 		nickel = (((amount%100)%25)%10)/5;
-		nickel = ((((amount%100)%25)%10)%5)/1;
+		penny = ((((amount%100)%25)%10)%5)/1;
 		
 		
-		System.out.println(doller);
-		System.out.println(quarter);
-		System.out.println(dime);
-		System.out.println(nickel);
-		System.out.println(penny);
+		System.out.println(doller + " Dollers");
+		System.out.println(quarter + " Quarters");
+		System.out.println(dime + " Dimes");
+		System.out.println(nickel+ " Nickels");
+		System.out.println(penny + " Pennies");
 		
 		
 		
