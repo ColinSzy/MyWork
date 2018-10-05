@@ -21,7 +21,7 @@ public class Coins {
 		nickel = (((amount%100)%25)%10)/5;
 		penny = ((((amount%100)%25)%10)%5)/1;
 		
-		
+	
 		System.out.println(doller + " Dollers");
 		System.out.println(quarter + " Quarters");
 		System.out.println(dime + " Dimes");
